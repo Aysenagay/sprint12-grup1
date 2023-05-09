@@ -65,3 +65,44 @@ button {
   background-color: #1da1f2;
   color: #fff;
 }
+
+/*--------Giriş Yap--------*/
+.containerGirisYap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: white;
+}
+
+.butongiris {
+  display: inline-block;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 20px;
+  border: none;
+  margin-right: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.butongiris {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.butongiris {
+  background-color: #1da1f2;
+}
+
+.butongiris {
+  background-color: #0d8ecf;
+}
+
+.twitterbaslik h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  padding-bottom: 1rem;
+}
