@@ -100,6 +100,9 @@ button {
 .butongiris {
   background-color: #0d8ecf;
 }
+.twitterbaslik {
+  text-align: center;
+}
 
 .twitterbaslik h2 {
   font-size: 2rem;
