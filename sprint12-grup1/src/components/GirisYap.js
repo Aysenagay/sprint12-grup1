@@ -25,7 +25,7 @@ export default function GirisYap() {
           </form>
         </div>
       </div>
-      <div className="girisyap">
+      <div className="girisbuton">
         <button className="butongiris">Giriş Yap</button>
       </div>
     </div>
