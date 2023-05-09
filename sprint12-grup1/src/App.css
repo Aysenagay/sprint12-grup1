@@ -119,3 +119,11 @@ button {
 .inputkullaniciadi input {
   border-radius: 5px;
 }
+
+.inputkullaniciadi h3 {
+  padding-bottom: 0.5rem;
+}
+
+.twitterbaslik h2 {
+  padding-top: 2rem;
+}
