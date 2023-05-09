@@ -106,3 +106,9 @@ button {
   font-weight: 600;
   padding-bottom: 1rem;
 }
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: centers;
+  margin-left: 50px;
+}
