@@ -1,5 +1,7 @@
 /* --------First Page-------- */
-
+body {
+  font-family: "Inter", sans-serif;
+}
 .containerFirstPage {
   display: flex;
   flex-direction: column;
