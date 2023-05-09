@@ -29,7 +29,8 @@ body {
   color: #657786;
 }
 
-button {
+.girisYap,
+.kayitOl {
   display: inline-block;
   font-size: 1.2rem;
   font-weight: 600;
