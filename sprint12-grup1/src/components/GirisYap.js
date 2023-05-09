@@ -9,9 +9,11 @@ export default function GirisYap() {
       </div>
       <div className="kullaniciadi">
         <h3>Kullanıcı Adı veya E-posta</h3>
+        <input></input>
       </div>
       <div className="sifre">
         <h3>Şifre</h3>
+        <input></input>
       </div>
       <div className="girisyap">
         <button className="butongiris">Giriş Yap</button>
