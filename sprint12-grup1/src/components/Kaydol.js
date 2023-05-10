@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Kaydol = () => {
   return (
-    <div>
+    <div className='all'>
         <div className='signup'>
             <h3>
                 Hesabını Oluştur
@@ -28,7 +28,9 @@ export const Kaydol = () => {
               ></input>
             </label>
             </div>
-        
+            <div className='button'>
+            <button className='kaydol'>Kaydol!</button>
+            </div>
     </div>
   )
 }
