@@ -7,8 +7,17 @@ function App() {
   return (
     <div className="App">
       <FirstPage />
-
-      <GirisYap />
+      <Router>
+        <Switch>
+          <Route path="/girisyap">
+            {" "}
+            <GirisYap />{" "}
+          </Route>
+          <Route path="/kayitol">
+            <Kaydol />
+          </Route>
+        </Switch>
+      </Router>
     </div>
   );
 }
