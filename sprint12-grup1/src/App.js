@@ -7,11 +7,7 @@ function App() {
   return (
     <div className="App">
       <FirstPage />
-      <Switch>
-        <Route path="/girisyap">
-          <GirisYap />
-        </Route>
-      </Switch>
+      <GirisYap />
     </div>
   );
 }
