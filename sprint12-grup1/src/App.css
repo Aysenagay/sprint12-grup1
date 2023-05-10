@@ -48,21 +48,21 @@ body {
 }
 
 .girisYap {
-  background-color: #1da1f2;
+  background-color: #343a40;
 }
 
 .girisYap:hover {
-  background-color: #0d8ecf;
+  background-color: #2b2f33;
 }
 
 .kayitOl {
   background-color: #fff;
-  color: #1da1f2;
-  border: 2px solid #1da1f2;
+  color: #343a40;
+  border: 2px solid #343a40;
 }
 
 .kayitOl:hover {
-  background-color: #1da1f2;
+  background-color: #2b2f33;
   color: #fff;
 }
 
