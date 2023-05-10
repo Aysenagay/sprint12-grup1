@@ -8,7 +8,27 @@ export const Kaydol = () => {
                 Hesabını Oluştur
             </h3>
         </div>
-       
+        <div className='name'>
+        <label>
+              <input
+                type="text"
+                name="name"
+                placeholder="isim"
+             
+              ></input>
+            </label>
+            </div>
+            <div className='name'>
+        <label>
+              <input
+                type="text"
+                name="name"
+                placeholder="telefon"
+             
+              ></input>
+            </label>
+            </div>
+        
     </div>
   )
 }
