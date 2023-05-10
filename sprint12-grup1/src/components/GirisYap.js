@@ -53,7 +53,7 @@ export default function GirisYap() {
               <input
                 type="password"
                 name="password"
-                placeholder="Şifreyi giriniz."
+                placeholder="Şifreyi giriniz"
                 {...register("password", {
                   required: true,
                   maxLength: 16,
