@@ -1,18 +1,20 @@
-import "./App.css";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import FirstPage from "./components/FirstPage";
 import GirisYap from "./components/GirisYap";
-import { Switch, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <FirstPage />
-      <Switch>
-        <Route path="/girisyap">
-          <GirisYap />
-        </Route>
-      </Switch>
-    </div>
+    <Router>
+      <div className="App">
+        <Switch>
+          <FirstPage />
+
+          <Route path="/girisyap">
+            <GirisYap />
+          </Route>
+        </Switch>
+      </div>
+    </Router>
   );
 }
 
