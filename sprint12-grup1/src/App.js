@@ -4,17 +4,14 @@ import GirisYap from "./components/GirisYap";
 
 function App() {
   return (
-    <Router>
-      <div className="App">
-        <Switch>
-          <FirstPage />
-
-          <Route path="/girisyap">
-            <GirisYap />
-          </Route>
-        </Switch>
-      </div>
-    </Router>
+    <div className="App">
+      <FirstPage />
+      <Switch>
+        <Route path="/girisyap">
+          <GirisYap />
+        </Route>
+      </Switch>
+    </div>
   );
 }
 
