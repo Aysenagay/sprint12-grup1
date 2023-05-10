@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function FirstPage() {
   return (
@@ -8,9 +9,16 @@ export default function FirstPage() {
         <h3>Buralarda yeni misin?</h3>
         <p>En son haberleri ve güncellemeleri kaçırmamak için hemen üye ol!</p>
       </div>
+
       <div className="butonlar">
-        <button className="girisYap">Giriş Yap</button>
-        <button className="kayitOl">Kayıt Ol</button>
+        <Link to="/girisyap">
+          {" "}
+          <button className="girisYap">Giriş Yap</button>
+        </Link>
+        <Link to="/kayitol">
+          {" "}
+          <button className="kayitOl">Kayıt Ol</button>
+        </Link>
       </div>
     </div>
   );
