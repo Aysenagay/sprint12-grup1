@@ -5,20 +5,11 @@ import FirstPage from "./components/FirstPage";
 import "./App.css";
 function App() {
   return (
-    <Router>
-      <div className="App">
-        <Switch>
-          <FirstPage />
+    <div className="App">
+      <FirstPage />
 
-          <Route path="/girisyap">
-            <GirisYap />
-          </Route>
-          <Route path="/kaydol">
-            <Kaydol />
-          </Route>
-        </Switch>
-      </div>
-    </Router>
+      <GirisYap />
+    </div>
   );
 }
 
