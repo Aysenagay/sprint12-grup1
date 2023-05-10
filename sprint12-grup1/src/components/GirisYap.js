@@ -30,6 +30,19 @@ export default function GirisYap() {
                   minLength: 8,
                 })}
               ></input>
+              {errors.username && errors.username.type === "required" && (
+                <span className="error">Kullanıcı Adı Gerekli!</span>
+              )}
+              {errors.username && errors.username.type === "maxLength" && (
+                <span className="error">
+                  Kullanıcı Adı en fazla 16 karakter olabilir
+                </span>
+              )}
+              {errors.username && errors.username.type === "minLength" && (
+                <span className="error">
+                  Kullanıcı adı en az 6 karakter olmalı.
+                </span>
+              )}
             </label>
           </form>
         </div>
@@ -37,7 +50,27 @@ export default function GirisYap() {
           <h3>Şifre:</h3>
           <form>
             <label>
-              <input></input>
+              <input
+                type="password"
+                name="password"
+                placeholder="Şifreyi giriniz."
+                {...register("password", {
+                  required: true,
+                  maxLength: 16,
+                  minLength: 8,
+                })}
+              ></input>
+              {errors.password && errors.password.type === "required" && (
+                <span className="error">Şifre zorunludur!</span>
+              )}
+              {errors.password && errors.password.type === "minLength" && (
+                <span className="error">Şifre en az 8 karakter olmalıdır.</span>
+              )}
+              {errors.password && errors.password.type === "maxLength" && (
+                <span className="error">
+                  Şifre en fazla 16 karakter olmalıdır.
+                </span>
+              )}
             </label>
           </form>
         </div>
