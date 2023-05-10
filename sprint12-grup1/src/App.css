@@ -107,8 +107,9 @@ body {
 .kullaniciadi {
   padding: 1rem;
 }
-.inputkullaniciadi input {
+input {
   border-radius: 5px;
+  border-color: gray;
 }
 
 .inputkullaniciadi h3 {
