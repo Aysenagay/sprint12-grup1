@@ -8,8 +8,16 @@ function App() {
   return (
     <div className="App">
       <FirstPage />
-
-      <GirisYap />
+      <Switch>
+        <Router>
+          <Route path="/girisyap">
+            <GirisYap />
+          </Route>
+          <Route path="/kayitol">
+            <Kaydol />
+          </Route>
+        </Router>
+      </Switch>
     </div>
   );
 }
