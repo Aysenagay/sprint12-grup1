@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const Kaydol = () => {
+ export default const Kaydol = () => {
   return (
     <div className='all'>
         <div className='signup'>
