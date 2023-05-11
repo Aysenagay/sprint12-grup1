@@ -125,7 +125,8 @@ input {
   border: 2px solid #1da1f2;
   width: 300px;
   height: 30px;
-  margin-left: 450px;
+  align-items: center;
+  margin-left: 470px;
   margin-top: 80px;
 }
 .signup h3 {
