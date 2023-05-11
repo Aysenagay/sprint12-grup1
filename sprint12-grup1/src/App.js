@@ -1,8 +1,8 @@
+import "./App.css";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Kaydol from "./components/Kaydol";
 import GirisYap from "./components/GirisYap";
 import FirstPage from "./components/FirstPage";
-import "./App.css";
-import { Route, Switch, Router } from "react-router
 
 function App() {
   return (
@@ -23,3 +23,5 @@ function App() {
     </div>
   );
 }
+
+export default App;
